@@ -3878,11 +3878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WeightTrackerApp\\WeightTrackerApp\\WeightTrackerApp.csproj",
+      "projectUniqueName": "D:\\WeightTracker\\WeightTrackerApp\\WeightTrackerApp\\WeightTrackerApp.csproj",
       "projectName": "WeightTrackerApp",
-      "projectPath": "D:\\WeightTrackerApp\\WeightTrackerApp\\WeightTrackerApp.csproj",
+      "projectPath": "D:\\WeightTracker\\WeightTrackerApp\\WeightTrackerApp\\WeightTrackerApp.csproj",
       "packagesPath": "C:\\Users\\Sunil\\.nuget\\packages\\",
-      "outputPath": "D:\\WeightTrackerApp\\WeightTrackerApp\\obj\\",
+      "outputPath": "D:\\WeightTracker\\WeightTrackerApp\\WeightTrackerApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

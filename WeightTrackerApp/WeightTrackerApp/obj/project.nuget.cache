@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t2QpggWvAk3OkOQtht3J9eUz+MtdysvQLIWa6uHZWg5LgyZtTYF1bj71OA3zgkLom4ri2ZEExw8i+W8SWfHdIw==",
+  "dgSpecHash": "RBJIgiusWvRKYpDoluU72kHhlxVyr+PvrNhf3PPCS2P/RVEzRidsDl0jnL9YzIDyAZBJBUix1TY/NOUGifZvBQ==",
   "success": true,
-  "projectFilePath": "D:\\WeightTrackerApp\\WeightTrackerApp\\WeightTrackerApp.csproj",
+  "projectFilePath": "D:\\WeightTracker\\WeightTrackerApp\\WeightTrackerApp\\WeightTrackerApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sunil\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Sunil\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
