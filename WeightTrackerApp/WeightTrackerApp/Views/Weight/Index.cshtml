@@ -1,0 +1,48 @@
+﻿@model List<Weight>
+
+@{
+    ViewData["Title"] = "List Of Weight";
+}
+
+<div class="row mt-2">
+    <div class="col-md-12">
+        <h3 class="text-center">List of Weight</h3>
+        <hr />
+        <a class="btn btn-success" asp-action="Create">
+            <i class="fa-solid fa-plus"></i>
+            Create Weight
+        </a>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Weight</th>
+                    <th scope="col">Tag</th>
+                    <th scope="col">Created Date</th>
+                    <th scope="col">Modified Date</th>
+                    <th scope="col">
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+               @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.WeightValue</td>
+                        <td>@item.Tag</td>
+                        <td>@item.CreatedDate.ToString("MM/dd/yyyy")</td>
+                        <td>@item.ModifiedDate.ToString("MM/dd/yyyy")</td>
+                        <td>
+                            <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen-to-square"></i></a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

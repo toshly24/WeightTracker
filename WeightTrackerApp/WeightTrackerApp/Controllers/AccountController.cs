@@ -37,7 +37,7 @@ namespace WeightTrackerApp.Controllers
                 if (result.Succeeded)
                 {
                     await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
-                    return RedirectToAction(nameof(Index), "home");
+                    return RedirectToAction(nameof(Index), "Weight");
                 }
             }
             return View(model);
@@ -60,7 +60,7 @@ namespace WeightTrackerApp.Controllers
                 {
                     if (returnUrl == null)
                     {
-                        return RedirectToAction(nameof(Index), "Home");
+                        return RedirectToAction(nameof(Index), "Weight");
                     }
                     else
                     {
@@ -75,7 +75,7 @@ namespace WeightTrackerApp.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction(nameof(Index), "Home");
+            return RedirectToAction(nameof(Login), "Account");
         }
 
     }

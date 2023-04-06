@@ -2,7 +2,7 @@
 {
     public interface IUnitOfWork
     {
-        IWeightOfRepository Note { get; }
+        IWeightOfRepository Weight { get; }
         void Save();
     }
 }

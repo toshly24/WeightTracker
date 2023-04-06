@@ -44,6 +44,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/WeightTracker/WeightTrackerApp/WeightTrackerApp/Views/Weight/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VpZ2h0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WeightTracker/WeightTrackerApp/WeightTrackerApp/Views/Weight/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VpZ2h0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WeightTracker/WeightTrackerApp/WeightTrackerApp/Views/Weight/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VpZ2h0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WeightTracker/WeightTrackerApp/WeightTrackerApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

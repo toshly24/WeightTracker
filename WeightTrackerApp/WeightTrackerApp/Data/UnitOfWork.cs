@@ -6,12 +6,12 @@ namespace WeightTrackerApp.Data
     {
         private readonly ApplicationDbContext context;
 
-        public IWeightOfRepository Note { get; private set; }
+        public IWeightOfRepository Weight { get; private set; }
 
         public UnitOfWork(ApplicationDbContext context)
         {
             this.context = context;
-            Note = new WeightRepository(context);
+            Weight = new WeightRepository(context);
         }
 
         public void Save()

@@ -1,0 +1,39 @@
+﻿@model WeightTrackerApp.ViewModels.WeightViewModel
+
+@{
+    ViewData["Title"] = "Create Note";
+}
+
+<div class="row mt-2">
+    <div class="col-12">
+        <h3 class="text-center">Create Weight</h3>
+        <hr />
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-4 mx-auto">
+        <form asp-action="Create" asp-controller="Weight" method="post">
+            <input hidden asp-for="UserId" />
+            <div class="mb-3">
+                <label asp-for="WeightValue">Weight</label>
+                <input type="number" asp-for="WeightValue" class="form-control">
+                <span class="text-danger" asp-validation-for="WeightValue"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Tag"></label>
+                <input type="text" asp-for="Tag" class="form-control">
+                <span class="text-danger" asp-validation-for="Tag"></span>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-success">
+                    <i class="fa-solid fa-floppy-disk"></i>
+                    Save
+                </button>
+                <a class="btn btn-info" asp-action="Index" asp-controller="Weight">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Go Index
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
