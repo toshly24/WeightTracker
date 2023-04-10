@@ -20,7 +20,9 @@
             <thead>
                 <tr>
                     <th scope="col">Weight</th>
-                    <th scope="col">Tag</th>
+                    <th scope="col">Height - (Meters)</th>
+                    <th scope="col">BMI</th>
+                    <th scope="col">KG</th>
                     <th scope="col">Created Date</th>
                     <th scope="col">Modified Date</th>
                     <th scope="col">
@@ -33,6 +35,8 @@
                 {
                     <tr>
                         <td>@item.WeightValue</td>
+                        <td>@item.HeightValue</td>
+                        <td>@item.BIMValue</td>
                         <td>@item.Tag</td>
                         <td>@item.CreatedDate.ToString("MM/dd/yyyy")</td>
                         <td>@item.ModifiedDate.ToString("MM/dd/yyyy")</td>

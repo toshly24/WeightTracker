@@ -41,11 +41,16 @@ namespace WeightTrackerApp.Controllers
 
             if (ModelState.IsValid)
             {
+                var squerHeight = model.HeightValue * model.HeightValue;
+                var bim = Math.Round(model.WeightValue / squerHeight);
+
                 var note = new Weight()
                 {
                     WeightValue = model.WeightValue,
+                    HeightValue = model.HeightValue,
+                    BIMValue = bim,
                     Tag = model.Tag,
-                    CreatedDate = DateTime.Now,
+                    CreatedDate = model.CreatedDate,
                     ModifiedDate = DateTime.Now,
                     UserId = model.UserId
                 };
@@ -70,6 +75,8 @@ namespace WeightTrackerApp.Controllers
                 {
                     Id = weight.Id,
                     WeightValue = weight.WeightValue,
+                    HeightValue = weight.HeightValue,
+                    BIMValue = weight.BIMValue,
                     Tag = weight.Tag,
                     CreatedDate = weight.CreatedDate,
                     ModifiedDate = weight.ModifiedDate,
@@ -89,6 +96,9 @@ namespace WeightTrackerApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                var squerHeight = model.HeightValue * model.HeightValue;
+                var bim = Math.Round(model.WeightValue / squerHeight);
+
                 var userId = _userManager.GetUserId(HttpContext.User);
 
                 if (model.UserId == userId)
@@ -97,6 +107,8 @@ namespace WeightTrackerApp.Controllers
                     {
                         Id = model.Id,
                         WeightValue = model.WeightValue,
+                        HeightValue = model.HeightValue,
+                        BIMValue = bim,
                         Tag = model.Tag,
                         CreatedDate = model.CreatedDate,
                         ModifiedDate = DateTime.Now,

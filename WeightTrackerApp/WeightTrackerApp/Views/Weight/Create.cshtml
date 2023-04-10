@@ -20,9 +20,19 @@
                 <span class="text-danger" asp-validation-for="WeightValue"></span>
             </div>
             <div class="mb-3">
-                <label asp-for="Tag"></label>
+                <label asp-for="HeightValue">Height - (Meters)</label>
+                <input type="number" asp-for="HeightValue" step="any" class="form-control">
+                <span class="text-danger" asp-validation-for="HeightValue"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Tag">KG</label>
                 <input type="text" asp-for="Tag" class="form-control">
                 <span class="text-danger" asp-validation-for="Tag"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="CreatedDate"> Created Date</label>
+                <input type="date" asp-for="CreatedDate" class="form-control">
+                <span class="text-danger" asp-validation-for="CreatedDate"></span>
             </div>
             <div class="mb-3">
                 <button type="submit" class="btn btn-success">
