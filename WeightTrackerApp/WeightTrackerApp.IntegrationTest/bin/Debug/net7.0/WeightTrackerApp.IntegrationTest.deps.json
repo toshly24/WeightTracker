@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "WeightTrackerApp.IntegrationTest/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",
           "WeightTrackerApp": "1.0.0",
           "coverlet.collector": "3.2.0",
@@ -202,6 +203,17 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/7.0.4": {},
+      "Microsoft.EntityFrameworkCore.InMemory/7.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51807"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/7.0.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.4",
@@ -1660,6 +1672,13 @@
       "sha512": "sha512-YRD4bViuaEPEsaBIL52DzXGzLCt3jYoE3wztYEW1QZYDl89hQ+ca0nvBO2mnMHmCXpU/2wlErrUyDp4x5B/3mg==",
       "path": "microsoft.entityframeworkcore.analyzers/7.0.4",
       "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-di7I9EUk+ibG2N7Ns4ecUK6Mz7HED7qik3jSbBIhdKXcU3ansXJEAAlOdM7xfRDzozs5elSLk9qQuHCbYwI1yA==",
+      "path": "microsoft.entityframeworkcore.inmemory/7.0.0",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.7.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.4": {
       "type": "package",

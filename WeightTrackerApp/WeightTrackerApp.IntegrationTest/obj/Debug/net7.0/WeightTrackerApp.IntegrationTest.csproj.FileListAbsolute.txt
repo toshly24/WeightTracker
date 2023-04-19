@@ -152,3 +152,4 @@ D:\WeightTracker\WeightTrackerApp\WeightTrackerApp.IntegrationTest\obj\Debug\net
 D:\WeightTracker\WeightTrackerApp\WeightTrackerApp.IntegrationTest\obj\Debug\net7.0\WeightTrackerApp.IntegrationTest.pdb
 D:\WeightTracker\WeightTrackerApp\WeightTrackerApp.IntegrationTest\obj\Debug\net7.0\WeightTrackerApp.IntegrationTest.genruntimeconfig.cache
 D:\WeightTracker\WeightTrackerApp\WeightTrackerApp.IntegrationTest\obj\Debug\net7.0\ref\WeightTrackerApp.IntegrationTest.dll
+D:\WeightTracker\WeightTrackerApp\WeightTrackerApp.IntegrationTest\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
